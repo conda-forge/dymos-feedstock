@@ -21,6 +21,7 @@ requirements:
   run:
     - openmdao >=3.27
     - numpy
+    - packaging
     - python >=3.8
     - scipy
 
@@ -57,9 +58,9 @@ about:
   license_file: LICENSE
   summary: Dymos framework infrastructure
   description: |
-    Dymos is a framework for the simulation and optimization of dynamical systems 
-    within the OpenMDAO Multidisciplinary Analysis and Optimization environment. 
-    Dymos leverages implicit and explicit simulation techniques to simulate generic 
+    Dymos is a framework for the simulation and optimization of dynamical systems
+    within the OpenMDAO Multidisciplinary Analysis and Optimization environment.
+    Dymos leverages implicit and explicit simulation techniques to simulate generic
     dynamic systems of arbitary complexity.
   doc_url: https://openmdao.github.io/dymos
   dev_url: https://github.com/OpenMDAO/dymos
