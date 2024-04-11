@@ -19,12 +19,9 @@ requirements:
     - python >=3.8
     - pip
   run:
-    # remove <3.27 once Dymos fixes their set_val calls
-    - openmdao >=3.17.0,<3.27
+    - openmdao >=3.27
     - numpy
-    - packaging
     - python >=3.8
-    - requests
     - scipy
 
 test:
