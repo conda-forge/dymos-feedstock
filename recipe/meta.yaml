@@ -22,14 +22,13 @@ requirements:
   run:
     - openmdao >=3.27
     - numpy
-    - packaging
     - python >=3.8
     - scipy
 
 test:
   requires:
     - aiounittest
-    - numpydoc >=0.9.1
+    - numpydoc >=1.1
     - parameterized
     - pycodestyle >=2.4.0
     - pyoptsparse
@@ -39,14 +38,9 @@ test:
     - colorama
     - matplotlib-base
     - notebook
-    - pydoe2
+    - pydoe3
     - pyparsing
     - tabulate
-    # for pip check
-    - pip
-    # from sphinx
-    - jinja2 >=2.3,<3.0
-    - markupsafe <2.0
   imports:
     - dymos
   commands:
