@@ -41,6 +41,8 @@ test:
     - pydoe3
     - pyparsing
     - tabulate
+    # for pip check
+    - pip
   imports:
     - dymos
   commands:
