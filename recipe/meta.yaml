@@ -1,5 +1,5 @@
-{% set version = "1.8.0" %}
-{% set sha256 = "595347a4586982f118353d1e9275f404966ab46c5220ecdecf487076766624bd" %}
+{% set version = "1.10.0" %}
+{% set sha256 = "9d99b7fb4a8e75f2be4d721666254227c1438b4e43a308cb05006c4634f75d12" %}
 
 package:
   name: dymos
@@ -18,19 +18,17 @@ requirements:
   host:
     - python >=3.8
     - pip
-  run:
-    # remove <3.27 once Dymos fixes their set_val calls
-    - openmdao >=3.17.0,<3.27
-    - numpy
     - packaging
+  run:
+    - openmdao >=3.27
+    - numpy
     - python >=3.8
-    - requests
     - scipy
 
 test:
   requires:
     - aiounittest
-    - numpydoc >=0.9.1
+    - numpydoc >=1.1
     - parameterized
     - pycodestyle >=2.4.0
     - pyoptsparse
@@ -40,14 +38,11 @@ test:
     - colorama
     - matplotlib-base
     - notebook
-    - pydoe2
+    - pydoe3
     - pyparsing
     - tabulate
     # for pip check
     - pip
-    # from sphinx
-    - jinja2 >=2.3,<3.0
-    - markupsafe <2.0
   imports:
     - dymos
   commands:
@@ -60,9 +55,9 @@ about:
   license_file: LICENSE
   summary: Dymos framework infrastructure
   description: |
-    Dymos is a framework for the simulation and optimization of dynamical systems 
-    within the OpenMDAO Multidisciplinary Analysis and Optimization environment. 
-    Dymos leverages implicit and explicit simulation techniques to simulate generic 
+    Dymos is a framework for the simulation and optimization of dynamical systems
+    within the OpenMDAO Multidisciplinary Analysis and Optimization environment.
+    Dymos leverages implicit and explicit simulation techniques to simulate generic
     dynamic systems of arbitary complexity.
   doc_url: https://openmdao.github.io/dymos
   dev_url: https://github.com/OpenMDAO/dymos
