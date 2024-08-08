@@ -154,4 +154,5 @@ Feedstock Maintainers
 =====================
 
 * [@sanbales](https://github.com/sanbales/)
+* [@swryan](https://github.com/swryan/)
 
