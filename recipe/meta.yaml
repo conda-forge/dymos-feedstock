@@ -1,5 +1,5 @@
-{% set version = "1.10.0" %}
-{% set sha256 = "9d99b7fb4a8e75f2be4d721666254227c1438b4e43a308cb05006c4634f75d12" %}
+{% set version = "1.11.0" %}
+{% set sha256 = "5438c65eefc756c49dbcd9186c69078a6b2f1b96bf52a9f340106cbc3058b72e" %}
 
 package:
   name: dymos
@@ -16,13 +16,13 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.9
     - pip
-    - packaging
+    - hatchling
   run:
     - openmdao >=3.27
     - numpy
-    - python >=3.8
+    - python >=3.9
     - scipy
 
 test:
