@@ -16,13 +16,13 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.9
     - pip
-    - packaging
+    - hatchling
   run:
     - openmdao >=3.27
     - numpy
-    - python >=3.8
+    - python >=3.9
     - scipy
 
 test:
