@@ -1,5 +1,5 @@
-{% set version = "1.11.0" %}
-{% set sha256 = "5438c65eefc756c49dbcd9186c69078a6b2f1b96bf52a9f340106cbc3058b72e" %}
+{% set version = "1.12.0" %}
+{% set sha256 = "35bea73897e49e07f113129ea5e5c9564b604d4e2b1c9c5ec2abe7641d12bf3c" %}
 
 package:
   name: dymos
