@@ -12,7 +12,7 @@ os.environ.update({
 })
 
 test_files_to_delete = [
-    # should be fixed in 1.13.0
+    # this test should be fixed in 1.13.0
     ["examples", "cannonball", "doc", "test_doc_cannonball_implicit_duration.py"],
 ]
 
