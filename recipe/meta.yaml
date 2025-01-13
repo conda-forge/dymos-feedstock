@@ -21,7 +21,7 @@ requirements:
     - hatchling
   run:
     - python >={{ python_min }}
-    - numpy<2
+    - numpy <2
     - scipy
     - openmdao >=3.27
 
