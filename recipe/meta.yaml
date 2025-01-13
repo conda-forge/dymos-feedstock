@@ -20,10 +20,10 @@ requirements:
     - pip
     - hatchling
   run:
-    - openmdao >=3.27
-    - numpy
     - python >={{ python_min }}
+    - numpy<2
     - scipy
+    - openmdao >=3.27
 
 test:
   requires:
