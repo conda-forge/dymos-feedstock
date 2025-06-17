@@ -1,5 +1,5 @@
-{% set version = "1.13.1" %}
-{% set sha256 = "9d83ba6d5dfdd0aa32d6bfc4b7cd63c38abc6a3bf22d04a4bf194113c9da8ffe" %}
+{% set version = "1.14.0" %}
+{% set sha256 = "b12eb2ab928dfadf4f5bc705918688c22bea40e40dcba59499879fce0467c105" %}
 
 package:
   name: dymos
@@ -68,4 +68,3 @@ extra:
   recipe-maintainers:
     - robfalck
     - swryan
-    - sanbales
