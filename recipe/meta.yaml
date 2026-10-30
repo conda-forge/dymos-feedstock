@@ -1,12 +1,12 @@
-{% set version = "1.14.0" %}
-{% set sha256 = "b12eb2ab928dfadf4f5bc705918688c22bea40e40dcba59499879fce0467c105" %}
+{% set version = "1.16.0" %}
+{% set sha256 = "28747fd1d7c9edb601e504d5ac552b457f0cb9f5119cfc535efe175f166a3d95" %}
 
 package:
   name: dymos
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/d/dymos/dymos-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/d/dymos/dymos-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
